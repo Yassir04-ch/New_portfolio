@@ -7,7 +7,7 @@ export const profile: Profile = {
   about:
     "Étudiant en 2ᵉ année de Développement Web Full-Stack Java Angular à UM6P | YouCode. Je conçois des applications web robustes, testées et déployables, du backend sécurisé jusqu'à l'interface, avec un intérêt marqué pour l'intégration d'IA (LLM, RAG, agents).",
   email: 'yassircherqui.YC@gmail.com',
-  phone: '+212 645019812',
+  phone: '+212 645019814',
   socials: [
     { label: 'GitHub', href: 'https://github.com/Yassir04-ch' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/search/results/all/?keywords=Yassir%20Cherqui' },
