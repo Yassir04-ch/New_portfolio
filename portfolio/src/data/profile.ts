@@ -46,21 +46,28 @@ export const profile: Profile = {
       repo: 'https://github.com/Yassir04-ch/Project_Stage',
     },
     {
+      name: 'Hotel Booking', subtitle: "Application de réservation d'hôtel", icon: '🏨', accent: '#f59e0b', image: '/projects/hotel.png',
+      description: "Application web de réservation d'hôtel : consultation des chambres et gestion des réservations. (Complète la stack depuis ton dépôt.)",
+      stack: ['Java 17', 'Spring Boot', 'PostgreSQL', 'JUnit 5', 'Mockito','Docker'],
+      repo: 'https://github.com/Yassir04-ch/Hotel_Booking_v2',
+    },
+    {
       name: 'FootEvent', subtitle: 'Gestion de tournois de football amateur', icon: '⚽', accent: '#22c55e', image: '/projects/footevent.png',
       description: 'Plateforme de compétitions : équipes, matchs, calendriers, classements et rôles Admin / Organisateur / Joueur.',
       stack: ['Laravel', 'Vue.js', 'MySQL', 'Tailwind CSS', 'Docker', 'Jira'],
       repo: 'https://github.com/Yassir04-ch/FootEvenT',
     },
     {
-      name: 'Hotel Booking', subtitle: "Application de réservation d'hôtel", icon: '🏨', accent: '#f59e0b', image: '/projects/hotel.png',
-      description: "Application web de réservation d'hôtel : consultation des chambres et gestion des réservations. (Complète la stack depuis ton dépôt.)",
-      stack: [],
-      repo: 'https://github.com/Yassir04-ch/Hotel_Booking_v2',
+      name: 'MyShop',subtitle: 'Application web e-commerce',icon: '🛒',accent: '#10b981',image: '/projects/myshop.png',
+      description: 'Application e-commerce permettant de présenter et gérer une boutique en ligne. Projet conteneurisé avec Docker.',
+      stack: ['Laravel', 'Vue.js', 'MySQL', 'Tailwind CSS', 'Docker', 'Jira','Docker Compose'],
+      repo: 'https://github.com/Yassir04-ch/Myshop',
     },
     {
       name: 'ClinicManager', subtitle: 'Application de gestion de clinique', icon: '🩺', accent: '#06b6d4', image: '/projects/clinic.png',
       description: 'Patients, médecins, spécialités, disponibilités, rendez-vous et dossiers médicaux. Authentification, rôles, architecture MVC avec Services, Repositories et DTO/Mapper.',
       stack: ['Jakarta EE', 'Servlets', 'JSP/JSTL', 'JPA/Hibernate', 'PostgreSQL', 'Docker'],
+      repo: 'https://github.com/Yassir04-ch/Clinic_Manager',
     },
   ],
   education: [

@@ -48,9 +48,9 @@ export const marquee: SectionBuilder = (p) => {
 };
 
 export const stats: SectionBuilder = (p) => {
-  const repos = p.projects.filter((x) => x.repo).length;
+  const repos = 53;
   const techs = new Set(p.skills.flatMap((g) => g.items)).size;
-  const data: [number, string][] = [[p.projects.length, 'Projets'], [repos, 'Dépôts GitHub'], [techs, 'Technologies']];
+  const data: [number, string][] = [[29, 'Projets'], [repos, 'Dépôts GitHub'], [techs, 'Technologies']];
   return h('section', { class: 'stats' }, ...data.map(([n, l]) =>
     reveal(h('div', { class: 'card stat' }, h('b', { 'data-count': String(n) }, '0'), h('span', { class: 'muted' }, l)))));
 };
